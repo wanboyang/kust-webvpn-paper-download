@@ -96,7 +96,8 @@ python kust_journal_batch.py --limit 20 --offset 20
 
 ## 移植到其他电脑
 
-1. 拷贝整个 skill 目录（SKILL.md + assets/）
+1. 拷贝整个 skill 目录（或 `git clone` 本仓库；**codex 用户见仓库根 `CODEX.md`**——含
+   可直接粘贴到 `~/.codex/AGENTS.md` 的接入片段）
 2. `pip install requests websocket-client`，确认 Chrome 路径
 3. 把脚本里/命令里的用户名路径换成新机的（profile 目录、chrome.exe）
 4. 首次使用需人工登录一次；之后 cookie 随 profile 目录走

@@ -10,7 +10,11 @@
 git clone https://github.com/wanboyang/kust-webvpn-paper-download.git \
     "$HOME/.zcode/skills/kust-webvpn-paper-download"
 
-# 其他 agent（.agents 标准 / codex AGENTS.md）：拷贝同目录或按各自约定挂载
+# codex：克隆到任意固定位置，然后把 CODEX.md 里的片段追加到 ~/.codex/AGENTS.md
+git clone https://github.com/wanboyang/kust-webvpn-paper-download.git \
+    ~/kust-webvpn-paper-download
+# 按 CODEX.md 操作
+
 pip install requests websocket-client
 ```
 
